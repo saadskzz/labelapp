@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Gilroy-Thin';
+    src: url('../assets/fonts/Gilroy-Thin.ttf') format('truetype'); /* Adjust the path based on your folder structure */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype'); /* Adjust the path based on your folder structure */
+    font-weight: normal;
+    font-style: normal;
+  }
+  .where{
+    font-family: 'Gilroy-Thin',sans-serif;
+  }
+  .the{
+    font-family:'Gilroy-Bold',sans-serif;
+  }
+.pulse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+.pulse-content1{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.pulse-content2{
+    display: flex;
+    flex-direction: row;
+   
+}
+.pulse-content3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pulse-content3 img{
+    margin-left: 20px
+}
+.pulse-img{
+    
+    height: 49.29px;
+    width: 243.5px;
+    
+}
+.pulse p{
+font-weight: 400;
+font-size: 200px;
+line-height: 220px;
+margin: 0 ;
+padding-left: 70px;
+padding-right: 70px;
+}

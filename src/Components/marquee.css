@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent; /* Set background to transparent */
+  border: 2px solid #fff; /* Add a border, adjust color and width as needed */
+  padding: 10px 0;
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.marquee {
+  display: inline-block;
+  animation: scroll 40s linear infinite;
+}
+
+.marquee span {
+  font-family: 'Gilroy-Bold',sans-serif;
+  font-size: 80px;
+  line-height: 105.6px;
+  letter-spacing: -4%;
+  font-weight: 400;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.arrow-icon {
+  vertical-align: middle; 
+  margin: 0 40px; 
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

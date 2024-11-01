@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Shockwave';
+  src: url('../assets/fonts/Shockwave.ttf') format('truetype'); /* Adjust the path based on your folder structure */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1 {
+ 
+}
+.app-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  line-height: 0.8;
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+  .header-name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Shockwave', Courier New, monospace;
+
+   color: #fff;
+   font-size: 29px;
+  
+   font-weight: 400;
+  }
+  .header-nav{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+  
+  }
+  .nav-img{
+    display: flex;
+    align-items: center;
+    
+  }
+  .header-nav p{
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 22px;
+    padding-left: 10px;
+    
+  }

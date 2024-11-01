@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../assets/fonts/Gilroy-Light.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.join-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-header p{
+    font-family: 'Gilroy-Light',Courier New, monospace;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 0px;
+    letter-spacing: -4%;
+    margin: 0;
+    text-align: center;
+}
+.join-header h1{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105.6px;
+    letter-spacing: -4%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+}
+.email-input{
+    display: flex;
+    justify-content: center;
+    
+ width: 683px;
+ height: 113px;
+ border-radius: 76px;
+ border: 1px solid white;
+ 
+ 
+ background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+ 
+ padding: 10px;
+    
+}
+
+.email-input input {
+    background: transparent; /* Ensure the input background is transparent */
+    border: none; /* Remove any default border */
+    color: inherit; /* Use inherited text color */
+    width: 100%; /* Full width of the input field */
+    height: 100%; /* Full height of the input field */
+    border-radius: 76px; /* Match outer border radius */
+    padding: 0 20px; /* Horizontal padding */
+   
+    line-height: 1.5; /* Adjust line height for better spacing */
+}
+
+:where(.join-header) :where(.ant-input-group-wrapper-outlined) .ant-input-group-addon .join-btn {
+   
+    border: none !important;
+  padding: 40px;
+   border-radius: 30px;
+   
+   background: #F4581D;
+font-size: 30px;
+font-weight: 400px;
+line-height: 39.6px;
+letter-spacing: -4%;
+font-family: 'Gilroy-Bold';
+ box-shadow: none !important;
+  
+  }
