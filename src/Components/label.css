@@ -30,6 +30,13 @@
   height: 966px;
   
 }
+.label-underline{
+    width: 382px;
+    height: 33px;
+}
+.img{
+
+}
 .label-p{
     font-family: 'Shockwave', Courier New, monospace;
     font-size: 40px;
@@ -39,4 +46,21 @@
 }
 .label-p p{
     margin-top: 20px;
+}
+@media (max-width:1550px) {
+    .label-h1 h1{
+        font-size: 120px;
+        font-weight: 400;
+    }
+  
+    .label-underline{
+        width: 360px;
+    }
+    .label-p{
+        font-family: 'Shockwave', Courier New, monospace;
+        font-size: 35px;
+        line-height: 0;
+        
+       
+    }
 }

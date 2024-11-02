@@ -14,17 +14,21 @@ import Soon from './Components/Soon';
 function App() {
   return (
       <div className="App">
-     <Header/> 
+      <Header/>  
      <main>
- <Pulse/> 
-        <Qoute/> 
-    <ProductInfo/> 
+   <Pulse/>   
+           <Qoute/>   
+          <ProductInfo/> 
+          <Label/>
+          <Join/> 
+          
+  {/*  <ProductInfo/> 
     
     <Label/> 
     <Join/>
     <Contact/> 
      <Marquee/>
-    <Soon/>
+    <Soon/> */}
      </main>
         </div>
   );

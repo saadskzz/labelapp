@@ -11,16 +11,12 @@ import arrDown from './arrdown.png'
 function ProductInfo() {
   return (
     <div className='product-info'>
-      
-       <Carousel  arrows infinite={false}>
-    <div>
+
     <div  className='product-gif'>
         <img src = {Anm2} alt= "phone animation" className='phone-gif'/>
         </div>
        
     
-    </div>
-  </Carousel>
  
      
 

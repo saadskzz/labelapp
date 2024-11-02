@@ -6,9 +6,7 @@
 }
 
 
-h1 {
- 
-}
+
 .app-header{
     display: flex;
     flex-direction: column;
@@ -47,4 +45,22 @@ h1 {
     line-height: 22px;
     padding-left: 10px;
     
+  }
+  @media (max-width:1152px) {
+    .header-nav p{
+      font-weight: 400px;
+      font-size: 18px;
+      line-height: 22px;
+      padding-left: 10px;
+      
+    }
+  }
+  @media(max-width:1028px){
+    .header-nav p{
+      font-weight: 400px;
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 10px;
+      
+    }
   }

@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    
    
 }
 .pulse-content1{
@@ -40,22 +41,151 @@
 .pulse-content3{
     display: flex;
     flex-direction: row;
+     margin: 0;
+    align-items: center;
     
 }
-.pulse-content3 img{
-    margin-left: 20px
-}
-.pulse-img{
+
+
+
+
+@media (max-width:1928px){
+   .face{
+    width: 176.78px;
+    height: 171.68px;
+  }
+  .face img{
+    width: 100%;
+   
+    max-width: 100%;
+  } 
+  
+  .pulse p{
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 220px;
+  margin: 0 ;
+  padding-left: 70px;
+  padding-right: 70px;
+  
+  }
+  .A img{
+    width: 100%;
+    
+    max-width: 100%;
+  }
+  .pulse-img{
     
     height: 49.29px;
     width: 243.5px;
     
 }
-.pulse p{
-font-weight: 400;
-font-size: 200px;
-line-height: 220px;
-margin: 0 ;
-padding-left: 70px;
-padding-right: 70px;
+.pulse-img img{
+  width: 100%;
+  max-width: 100%;
+}
+.A{
+  width: 174px;
+  height: 188px;
+}
+.pulse-content3 img{
+  margin-left: 20px
+}
+}
+@media (max-width:1716px) {
+  .pulse p{
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 210px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
+}
+@media (max-width:1532px) {
+  .pulse p{
+    font-weight: 400;
+    font-size: 135px;
+    line-height: 190px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
+    .face{
+      width: 155.78px;
+      height: 162.68px;
+    }
+    .A{
+      width: 149px;
+      height: 163px;
+    }
+    .pulse-img{
+    
+      height: 49.29px;
+      width: 243.5px;
+      
+  }
+}
+@media(max-width:1430px){
+  .pulse p{
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 170px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
+
+}
+@media (max-width:1280px) {
+  .pulse p{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 130px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
+    .face{
+      width: 84.78px;
+      height: 90.68px;
+    }
+    .A{
+      width: 86px;
+      height: 99px;
+    }
+    .pulse-img{
+    
+      height: 49.29px;
+      width: 243.5px;
+      
+  }
+  
+}
+@media (max-width:1152px) {
+  .pulse p{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 90px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
+  
+}
+@media(max-width:1028px){
+  .pulse p{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 90px;
+    margin: 0 ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    }
 }

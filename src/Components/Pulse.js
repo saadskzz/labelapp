@@ -19,9 +19,9 @@ function Pulse() {
  </div>
  <div className='pulse-content3'>
  <span className='the'></span> <p>SKIPS</p>
- <img src={A}/>
+<div className='A'><img src={A}   alt='a'/></div>
  
- <img src={Face}/>
+  <div className='face'><img src={Face}  width={"100%"}  alt='face'/></div>
  <span className='the'> <p>BEAT</p></span>
  
  </div>

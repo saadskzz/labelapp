@@ -8,8 +8,8 @@ function Label() {
     <div className='label-h1'>
         <h1>Label</h1>
     </div>
-    <div>
-      <img src={underline} alt='underline' className='label-underline'/>
+    <div  className='label-underline'>
+      <img src={underline} alt='underline'/>
     </div>
     <div className='label-p'>
         <p>Where the Wild things Shop</p>

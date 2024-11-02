@@ -8,11 +8,10 @@ function Join() {
             <p>Your front-row seat to what’s coming</p>
             <h1>JOIN THE WAITLIST.</h1>
         </div>
-        <div>
-          <Input size="large" placeholder="Your Email"  className='email-input'   style={{ fontSize: '40px', color: 'white' }}
-           addonAfter={<Button type="primary"  className='join-btn' >JOIN NOW</Button> } />
-       
-        </div>
+        <div class="email-input">
+        <input type="email" placeholder="Your Email" />
+        <button class="join-btn">JOIN NOW</button>
+    </div>
     </div>
   
     </>

@@ -35,46 +35,114 @@
     margin: 0;
     text-align: center;
 }
-.email-input{
+.email-input {
     display: flex;
     justify-content: center;
-    
- width: 683px;
- height: 113px;
- border-radius: 76px;
- border: 1px solid white;
- 
- 
- background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
- 
- padding: 10px;
-    
+    align-items: center;
+    width: 683px;
+    height: 113px;
+    border-radius: 76px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 10px;
 }
 
 .email-input input {
     background: transparent; /* Ensure the input background is transparent */
     border: none; /* Remove any default border */
-    color: inherit; /* Use inherited text color */
+    color: white; /* Text color */
     width: 100%; /* Full width of the input field */
     height: 100%; /* Full height of the input field */
     border-radius: 76px; /* Match outer border radius */
     padding: 0 20px; /* Horizontal padding */
-   
+    font-size: 40px; /* Font size */
     line-height: 1.5; /* Adjust line height for better spacing */
 }
 
-:where(.join-header) :where(.ant-input-group-wrapper-outlined) .ant-input-group-addon .join-btn {
-   
-    border: none !important;
-  padding: 40px;
-   border-radius: 30px;
-   
-   background: #F4581D;
-font-size: 30px;
-font-weight: 400px;
-line-height: 39.6px;
-letter-spacing: -4%;
-font-family: 'Gilroy-Bold';
- box-shadow: none !important;
-  
-  }
+.email-input button {
+    border: none; /* Remove border */
+    padding: 10px 60px; /* Horizontal padding */
+    border-radius: 40px; /* Border radius */
+    background: #F4581D; /* Button color */
+    font-size: 30px; /* Font size */
+    font-weight: 400; /* Font weight */
+    line-height: 39.6px; /* Line height */
+    letter-spacing: -4%; /* Letter spacing */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.email-input button:hover {
+    background: #d94c1a; /* Darken button color on hover */
+}
+
+@media (max-width:1537px){
+    .join-header p{
+        font-family: 'Gilroy-Light',Courier New, monospace;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 0px;
+        letter-spacing: -4%;
+        margin: 0;
+        text-align: center;
+    }
+    .join-header h1{
+        font-family: 'Gilroy-Bold',sans-serif;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 95.6px;
+        letter-spacing: -4%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .email-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 613px;
+        height: 93px;
+        border-radius: 76px;
+        border: 1px solid white;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        padding: 10px;
+    }
+    
+ 
+}
+@media (max-width:1490px){
+    .join-header p{
+        font-family: 'Gilroy-Light',Courier New, monospace;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 0px;
+        letter-spacing: -4%;
+        margin: 0;
+        text-align: center;
+    }
+    .join-header h1{
+        font-family: 'Gilroy-Bold',sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 95.6px;
+        letter-spacing: -4%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .email-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 593px;
+        height: 83px;
+        border-radius: 76px;
+        border: 1px solid white;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        padding: 10px;
+    }
+    
+ 
+}
