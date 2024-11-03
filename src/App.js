@@ -22,7 +22,7 @@ function App() {
           <Label/>
           <Join/> 
           
-  {/*  <ProductInfo/> 
+   {/* <ProductInfo/> 
     
     <Label/> 
     <Join/>

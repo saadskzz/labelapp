@@ -4,175 +4,71 @@
     font-weight: normal;
     font-style: normal;
   }
-  .qoute-content{
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-    
-}
-.qoute-img{
-    
-height: auto;
-
-width:  48%;
-object-fit: contain;
-}
-.qoute-img img{
-    width: auto;
-}
-.arrow-img{
-    width: 15%;
-    
-    height: 251px;
-}
-
-.flower-img{
-    
-    display: flex;
-    justify-content: center;
-   
-}
-.qoute-whole{
-    padding: 130px;
-}
-.qoute-content{
-    display: flex;
-  
-    justify-content: center;
-    
-    
-    
-}
-.qoute{
-padding-top: 130px;
-padding-left: 60px;
-padding-right: 130px;
-padding-bottom: 130px;
- 
- width: 725px;
- height: 236px;
-line-height: 78.4px;
-letter-spacing: -1.68px;
-}
-.qoute p{
-    font-family: 'Gilroy-Bold',sans-serif;
-}
-.mouse{
-    display: flex;
-    justify-content: center;
+  .qoute-whole {
+    width: 100%;
+    display:  flex;
+    flex-direction: column;
     align-items: center;
-}
-@media  (max-width: 1928px) {
-    .qoute-content{
-        font-size: 56px;
-    }
-  
+    padding-left:  30px;
+    padding-right: 30px;
   }
-  @media (max-width:1889px){
-    .qoute-content p{
-        font-size: 52px;
-    }
-   
+  .qoute-content { 
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .qoute-img {
+    width: 48%;
+    position: relative;
+  }
+  .flower-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .arrow-img {
+    position: absolute;
+    top: -10px;
+    right: -100px
+  }
+  .arrow-img img  {
+    width: 200px;
+  }
+  .qoute {
+    width: 48%;
+  }
+  .qoute p { 
+    font-family: 'Gilroy-Bold';
+    font-size: 56px;
   }
 
-  @media (max-width:1825px){
-    .qoute-content p{
-        font-size: 46px;
+  @media (max-width : 800px)  {
+    .qoute-img {
+        width: 44%;
     }
-    .qoute{
-        padding-top: 130px;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-bottom: 130px;
-         
-         width: 725px;
-         height: 236px;
-        line-height: 78.4px;
-        letter-spacing: -1.68px;
-        }
-  }
-  @media(max-width:1686px){
-       .qoute-content p{
-        font-size: 30px;
+   .qoute p {
+    font-size: 30px;
+   }
+   .arrow-img {
+    right: -32px;
+   }
+   .arrow-img img {
+    width: 105px;
+   }
+  }  
+  @media (max-width : 800px) {
+    .qoute-content {
+        flex-direction: column;
+        align-items: center;
     }
-    .qoute{
-        padding-top: 130px;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-bottom: 130px;
-         
-         width: 725px;
-         height: 236px;
-        line-height: 58.4px;
-        letter-spacing: -1.68px;
-        }
-        .qoute-img img{
-            width: 500px;
-        }
-        .arrow-img img{
-        
-        }
-  }
-  @media (max-width:1410px){
-    .qoute-content p{
-        font-size: 30px;
-        line-height: 48.4px;
-        letter-spacing: -1.68px;
+    .qoute-img {
+        margin-top: 20px;
+        width: 80%;
     }
-    .qoute{
-        padding-top: 130px;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-bottom: 130px;
-         
-         width: 725px;
-         height: 236px;
-        
-        }
-        .qoute-img img{
-            width: 450px;
-        }
-  }
-  @media (max-width:1300px){
-    .qoute-content p{
-        font-size: 30px;
-        line-height: 48.4px;
-        letter-spacing: -1.68px;
+    .qoute { 
+        width: 100%;
     }
-    .qoute{
-        padding-top: 130px;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-bottom: 130px;
-         
-         width: 725px;
-         height: 236px;
-        
-        }
-        .qoute-img img{
-            width: 430px;
-        }
-        .arrow-img img{
-        width: 240px;
-        }
+    .qoute p {
+        text-align: center;
+    }
   }
-  @media (max-width:1055px){
-   
-    .qoute{
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 40px;
-         
-         width: 725px;
-         height: 236px;
-        
-        }
-        .qoute-img img{
-            width: 430px;
-        }
-        .arrow-img img{
-        width: 240px;
-        }
-  }
- 

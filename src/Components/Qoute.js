@@ -12,10 +12,10 @@ function Qoute() {
         <div className='qoute-content'>
       <div className='qoute-img'>
         <img src={flower} alt='flower' className='flower-img'/>
-      </div>
-     <div className='arrow-img'>
+        <div className='arrow-img'>
 <img src={arrow}/>
     </div> 
+      </div>
       <div className='qoute'>
         <p>Find your next move here—
         style  inspiration and the best underground brands, all in reach</p>
