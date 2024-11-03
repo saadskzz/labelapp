@@ -13,8 +13,8 @@
     justify-content: center;
     
   line-height: 0.8;
-   padding-left: 100px;
-   padding-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
   }
   .header-name {
     display: flex;
@@ -30,8 +30,6 @@
     display: flex;
    flex-direction: row;
     justify-content: space-between;
-    padding-left: 170px;
-    padding-right: 170px;
   
   }
   .nav-img{

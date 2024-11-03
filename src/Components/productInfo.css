@@ -130,3 +130,28 @@ padding-bottom: 20px;
          }
     }
     
+    @media(max-width : 800px)  {
+        .product-info {
+            flex-direction: column;
+        }
+        .product-gif {
+            width: 100%;
+        }
+        .product {
+            width: 100%;
+            padding: 20px;
+        }
+        .product-content h1 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .product-content p {
+            padding-left: 0px;
+        }
+        .exclame {
+            padding-left: 0px;
+        }
+        .dot {
+            padding-left: 0px;
+        }
+    }
