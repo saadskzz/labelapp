@@ -1,6 +1,8 @@
 
 import Header from './Components/Header';
 import './App.css';
+import 'animate.css';
+
 import Qoute from './Components/Qoute';
 import ProductInfo from './Components/ProductInfo';
 import Label from './Components/Label';
@@ -19,9 +21,12 @@ function App() {
    <Pulse/>   
            <Qoute/>   
           <ProductInfo/> 
-          <Label/>
+         /
+           <Label/> 
           <Join/> 
-          
+          <Contact/> 
+          <Marquee/>
+          <Soon/>
    {/* <ProductInfo/> 
     
     <Label/> 

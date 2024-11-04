@@ -1,12 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/shockwave');
 
 body{
-  background-color: rgb(113, 209, 3);
+  background-color: rgb(12, 12, 12);
  margin-top: 10px; 
  color: #fff;
 }
 
 
-main{
-  width: 100vw;
-}

@@ -1,13 +1,11 @@
-.label-component{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.contact-img {
     width: 100%; /* Set to full width of the container */
     height: auto; /* Allows height to adjust based on image aspect ratio */
     max-width: 100%; /* Prevents it from exceeding container width */
     overflow: hidden; /* Hides any overflow */
 }
-.label-component img{
-    width: 100%;
-    height: auto;
+
+.contact-img img {
+    width: 100%; /* Allows the image to scale with its container */
+    height: auto; /* Maintains aspect ratio */
 }

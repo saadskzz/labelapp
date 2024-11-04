@@ -1,19 +1,13 @@
 import React from 'react'
 import './label.css'
-import underline from './labelunderline2.png'
+import ScrollAnimation from 'react-animate-on-scroll'
+import labelcomp from './label-comp.png'
 function Label() {
   return (
   
         <div className='label-component'>
-    <div className='label-h1'>
-        <h1>Label</h1>
-    </div>
-    <div  className='label-underline'>
-      <img src={underline} alt='underline'/>
-    </div>
-    <div className='label-p'>
-        <p>Where the Wild things Shop</p>
-    </div>
+          <ScrollAnimation animateIn="animate__animated animate__backInRight">
+   <img src={labelcomp}/></ScrollAnimation>
     </div>
   
   )

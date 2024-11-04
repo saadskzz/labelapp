@@ -5,7 +5,12 @@
   font-style: normal;
 }
 
-
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url('../assets/fonts/Gilroy-Black.ttf') format('truetype'); /* Adjust the path based on your folder structure */
+  font-weight: normal;
+  font-style: normal;
+}
 
 .app-header{
     display: flex;
@@ -13,8 +18,8 @@
     justify-content: center;
     
   line-height: 0.8;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 240px;
+  padding-right: 240px;
   }
   .header-name {
     display: flex;
@@ -42,6 +47,7 @@
     font-size: 23px;
     line-height: 22px;
     padding-left: 10px;
+    font-family: 'Gilroy-Black',sans-serif;
     
   }
   @media (max-width:1152px) {
@@ -59,6 +65,36 @@
       font-size: 16px;
       line-height: 22px;
       padding-left: 10px;
+      
+    }
+  }
+  @media(max-width: 912px){
+    .header-nav div{
+ 
+   
+    }
+    .header-nav p{
+      font-weight: 200px;
+      font-size: 6px;
+      line-height: 5px;
+    
+      
+      text-align: center;
+      
+    }
+  }
+  @media(max-width: 658px){
+    .header-nav div{
+
+   
+    }
+    .header-nav p{
+      font-weight: 200px;
+      font-size: 3px;
+      line-height: 5px;
+    
+      padding-left: 10px;
+      text-align: center;
       
     }
   }

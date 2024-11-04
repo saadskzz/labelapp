@@ -57,7 +57,7 @@
         color: black;
         margin-bottom: -22px;
         padding-left: 80px;
-        padding-right: 200px;
+        
     }
     .product-content img{
         display: flex;
@@ -66,12 +66,18 @@
         
     
     }
-    .underline{
-        padding-left: 80px;
-        padding-right: 200px;
-        width: 49%;
-    }
+    
+            .label-underline{
+                width: 577px;
+                height: 33px;
+                padding-left: 80px;
+            }
+            .label-underline image{
+            max-width: 100%;
+            }
+ 
     .exclame{
+        
         padding-left: 80px;
         padding-right: 200px;
 
@@ -120,12 +126,12 @@ padding-bottom: 20px;
         .product-content h1{
             font-family: 'Gilroy-Bold',sans-serif;
              font-weight: 400px;
-             font-size: 56px;
+             font-size: 20px;
              line-height: 78.4px;
              letter-spacing: -1.68px;
              color: black;
              margin-bottom: -22px;
-             padding-left: 80px;
+             padding-left: 100px;
              padding-right: 200px;
          }
     }
@@ -154,4 +160,62 @@ padding-bottom: 20px;
         .dot {
             padding-left: 0px;
         }
+    }
+    @media(max-width : 520px)  {
+        .product-info {
+            flex-direction: column;
+        }
+        .product-gif {
+            width: 100%;
+        }
+        .product {
+            width: 100%;
+            padding: 20px;
+        }
+        .product-content h1 {
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 24px;
+        }
+        .product-content p {
+            padding-left: 0px;
+            font-size: 14px;
+        }
+        .exclame {
+            padding-left: 0px;
+        }
+        .dot {
+            padding-left: 0px;
+        }
+    }
+    @media (max-width:1420px) {
+        .label-underline{
+            width: 577px;
+            height: 71.44px;
+            padding-left: 80px;
+            padding-right: 200px;
+    
+                }
+    }
+    @media(max-width:1352px){
+        .label-underline{
+            width: 577px;
+            height: 33px;
+            padding-left: 80px;
+        }
+        .label-underline img{
+            width: 350px;
+       
+        }
+        .product-content h1{
+            font-family: 'Gilroy-Bold',sans-serif;
+             font-weight: 400px;
+             font-size: 40px;
+             line-height: 78.4px;
+             letter-spacing: -1.68px;
+             color: black;
+             margin-bottom: -22px;
+             padding-left: 80px;
+             
+         }
     }
