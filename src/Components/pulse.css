@@ -262,7 +262,7 @@
     
       font-weight: 400;
       font-size: 13px;
-      line-height: 90px;
+      line-height: 40px;
       margin: 0 ;
       padding-left: 70px;
       padding-right: 70px;
@@ -270,4 +270,7 @@
      
   }
   
+}
+.pulse{
+  overflow-x: hidden;
 }

@@ -66,9 +66,9 @@
     padding: 0 40px; /* Horizontal padding */
     border-radius: 40px; /* Border radius */
     background: #F4581D; /* Button color */
-    font-size: 30px; /* Font size */
+    font-size: 22px; /* Font size */
     font-weight: 400; /* Font weight */
-    line-height: 31.6px; /* Line height */
+     /* Line height */
     letter-spacing: -4%; /* Letter spacing */
     color: white; /* Text color */
     cursor: pointer; /* Pointer cursor on hover */
@@ -134,8 +134,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 460px;
-        height: 83px;
+        max-width: 460px;
+        width: 100%;
+        height: 61px;
         border-radius: 76px;
         border: 1px solid white;
         background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */

@@ -11,14 +11,14 @@ function Join() {
             <ScrollAnimation animateIn="animate__animated animate__backInRight">
             <h1>JOIN THE WAITLIST.</h1></ScrollAnimation>
         </div>
-        <div class="email-input">
+         <div class="email-input">
         <ScrollAnimation animateIn="animate__animated animate__backInDown">
         <input type="email" placeholder="Your Email" />
         </ScrollAnimation>
         <ScrollAnimation  animateIn="animate__animated animate__backInRight">
         <button class="join-btn">JOIN NOW</button>
         </ScrollAnimation>
-    </div>
+    </div> 
     </div>
   
     </>
