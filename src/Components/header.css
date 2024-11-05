@@ -29,7 +29,7 @@
    color: #fff;
    font-size: 29px;
   
-   font-weight: 400;
+   font-weight: 120;
   }
   .header-nav{
     display: flex;
@@ -69,10 +69,7 @@
     }
   }
   @media(max-width: 912px){
-    .header-nav div{
- 
-   
-    }
+    
     .header-nav p{
       font-weight: 200px;
       font-size: 6px;
@@ -84,10 +81,7 @@
     }
   }
   @media(max-width: 658px){
-    .header-nav div{
-
    
-    }
     .header-nav p{
       font-weight: 200px;
       font-size: 6px;

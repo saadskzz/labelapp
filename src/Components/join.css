@@ -84,7 +84,18 @@
 .email-input button:hover {
     background: #d94c1a; /* Darken button color on hover */
 }
-
+@media (max-width:1928px){
+    
+    .email-input button{
+        font-size: 39px;
+    }
+}
+@media (max-width:1494px){
+    
+    .email-input button{
+        font-size: 20px;
+    }
+}
 @media (max-width:1537px){
     .join-header p{
         font-family: 'Gilroy-Light',Courier New, monospace;
@@ -185,7 +196,7 @@
         font-family: 'Gilroy-Bold',sans-serif;
         font-weight: 400;
         font-size: 30px;
-        line-height: 95.6px;
+        line-height: 56.6px;
         letter-spacing: -4%;
        padding-top: 10px;
        padding-bottom: 10px;

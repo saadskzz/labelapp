@@ -14,7 +14,147 @@ function Marquee() {
         <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
         JOIN US TODAY 
         <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY   <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
         JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+           <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+        <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
+        JOIN US TODAY 
+         
          
         <img src={ArrowDown} alt="arrow down" className="arrow-icon" />
         JOIN US TODAY 

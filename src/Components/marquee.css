@@ -17,7 +17,7 @@
 
 .marquee {
   display: inline-block;
-  animation: scroll 40s linear infinite;
+  animation: scroll 200s linear infinite;
 }
 
 .marquee span {
@@ -37,7 +37,7 @@
 
 @keyframes scroll {
   0% {
-      transform: translateX(100%);
+      transform: translateX(0);
   }
   100% {
       transform: translateX(-100%);
