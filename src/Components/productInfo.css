@@ -16,7 +16,7 @@
         flex-direction: row;
         background-color: #fff;
         color: black;
-        
+        padding: 110px;
     }
     .product-gif{
         width: 48%;
@@ -24,6 +24,7 @@
         object-fit: contain;
         display: flex;
        justify-content: center;
+       align-items: center;
        
     }
     .phone-gif{
@@ -111,7 +112,29 @@ padding-bottom: 20px;
        padding: 35px;
        padding-top: 0;
     }
-
+    @media (max-width:1550px) {
+.product-info{
+    padding: 40px;
+    
+}
+.product-content h1{
+    white-space: nowrap;
+}
+    }
+@media (max-width:1382px) {
+    .product-content h1{
+        font-family: 'Gilroy-Bold',sans-serif;
+         font-weight: 400px;
+         font-size: 40px;
+         line-height: 78.4px;
+         letter-spacing: -1.68px;
+         color: black;
+         margin-bottom: -22px;
+         padding-left: 100px;
+         padding-right: 200px;
+     }
+    
+}
     @media (max-width:1310px) {
         .product-content p{
             font-family: 'Gilroy-Medium',sans-serif;
@@ -133,6 +156,7 @@ padding-bottom: 20px;
              margin-bottom: -22px;
              padding-left: 100px;
              padding-right: 200px;
+             white-space: nowrap;
          }
     }
     
@@ -179,7 +203,7 @@ padding-bottom: 20px;
         }
         .product-content p {
             padding-left: 0px;
-            font-size: 14px;
+            font-size: 22px;
         }
         .exclame {
             padding-left: 0px;
@@ -227,5 +251,8 @@ padding-bottom: 20px;
         }
         .label-underline img{
     
+        }
+        .product-content h1{
+
         }
     }
