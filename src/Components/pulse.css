@@ -261,7 +261,7 @@
   .pulse p{
     
       font-weight: 400;
-      font-size: 22px;
+      font-size: 20px;
       line-height: 40px;
       margin: 0 ;
       padding-left: 70px;
@@ -273,5 +273,5 @@
 }
 .pulse{
   overflow-x: hidden;
-  margin: 5px;
+
 }
