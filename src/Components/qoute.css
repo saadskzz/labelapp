@@ -114,4 +114,7 @@
     .qoute p {
         text-align: center;
     }
+    .mouse {
+      display: none;
+    }
   }

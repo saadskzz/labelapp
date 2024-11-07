@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect,useState} from 'react'
 import { Carousel } from 'antd';
 import './productInfo.css'
 import Anm1 from './Animation1.gif'
@@ -9,9 +9,50 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import dot from './dot.png'
 import arrUp from './arrup.png'
 import arrDown from './arrdown.png'
+
 function ProductInfo() {
+  const [bgColor, setBgColor] = useState('rgb(0, 0, 0)'); // Initialize with black
+  const [isInViewport, setIsInViewport] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPosition = window.scrollY;
+      
+      // Map scroll position to a range from 0 to 255
+   
+    
+      if (isInViewport) {  
+         const colorValue = Math.min(255, Math.floor((scrollPosition / maxScroll) * 255));
+      setBgColor(`rgb(${255}, ${255}, ${255})`);
+     } };
+  
+     const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setIsInViewport(true); // Start color transition when product-info is visible
+        } else {
+          setIsInViewport(false); // Stop the transition when it's out of view
+        }
+      });
+    }, {
+      threshold: 0.4, // Trigger when 10% of the element is in view
+    });
+
+    const productInfoElement = document.querySelector('.product-info');
+    if (productInfoElement) {
+      observer.observe(productInfoElement);
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll); // Clean up on unmount
+      observer.disconnect(); // Disconnect the observer when the component is unmounted
+    };
+  }, [isInViewport]);
+  
   return (
-    <div className='product-info'>
+    <div className='product-info' style={{ backgroundColor: bgColor }}>
 
     <div  className='product-gif'> <ScrollAnimation animateIn="animate__animated animate__backInLeft">
         <img src = {Anm2} alt= "phone animation" className='phone-gif'/>
@@ -50,5 +91,6 @@ function ProductInfo() {
     </div>
   )
 }
+
 
 export default ProductInfo

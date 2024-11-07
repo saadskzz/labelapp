@@ -188,8 +188,8 @@
     font-size: 40px;
     line-height: 90px;
     margin: 0 ;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
     
     }
   
@@ -200,8 +200,8 @@
     font-size: 34px;
     line-height: 50px;
     margin: 0 ;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     
     }
     .pulse-img{
@@ -224,8 +224,8 @@
       font-size: 26px;
       line-height: 60px;
       margin: 0 ;
-      padding-left: 70px;
-      padding-right: 70px;
+      padding-left: 50px;
+      padding-right: 50px;
       
      
   }
@@ -251,8 +251,8 @@
       font-size: 26px;
       line-height: 50px;
       margin: 0 ;
-      padding-left: 70px;
-      padding-right: 70px;
+      padding-left: 40px;
+      padding-right: 40px;
       
      
   }
@@ -261,13 +261,17 @@
   .pulse p{
     
       font-weight: 400;
-      font-size: 20px;
+      font-size: 26px;
       line-height: 40px;
       margin: 0 ;
-      padding-left: 70px;
-      padding-right: 70px;
-      
+      padding-left: 35px;
+      padding-right: 35px;
+    text-align: center;
      
+  }
+  .pulse-content3 img{
+   
+    margin-right: 20px;
   }
   
 }

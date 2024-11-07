@@ -1,5 +1,5 @@
 .contact-img {
-    width: 100%; /* Set to full width of the container */
+    width: 100%;
     height: auto; /* Allows height to adjust based on image aspect ratio */
     max-width: 100%; /* Prevents it from exceeding container width */
     overflow: hidden; /* Hides any overflow */

@@ -17,6 +17,7 @@
         background-color: #fff;
         color: black;
         padding: 110px;
+        transition: background-color 1s ease; /* Smooth transition effect */
     }
     .product-gif{
         width: 48%;
@@ -177,6 +178,7 @@ padding-bottom: 20px;
         }
         .product-content p {
             padding-left: 0px;
+        
         }
         .exclame {
             padding-left: 0px;
@@ -200,11 +202,13 @@ padding-bottom: 20px;
         .product-content h1 {
             padding-left: 0px;
             padding-right: 0px;
-            font-size: 24px;
+            font-size: 30px;
+         
         }
         .product-content p {
             padding-left: 0px;
             font-size: 22px;
+            letter-spacing: -0.5px;
         }
         .exclame {
             padding-left: 0px;
@@ -250,11 +254,9 @@ padding-bottom: 20px;
             height: 33px;
            padding-left: 0;
         }
-        .label-underline img{
-    
-        }
+       
         .product-content h1{
-
+            letter-spacing: -0.6px;
         }
     }
     @media (max-width:422px){
