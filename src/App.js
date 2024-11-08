@@ -15,27 +15,43 @@ import Soon from './Components/Soon';
 
 function App() {
   return (
-      <div className="App">
-      <Header/>  
-     <main>
-   <Pulse/>   
-           <Qoute/>   
-          <ProductInfo/> 
-         /
-           <Label/> 
-          <Join/> 
-          <Contact/> 
-          <Marquee/>
-          <Soon/>
-   {/* <ProductInfo/> 
+    <div className="App">
+    <Header />  {/* Navigation Header */}
     
-    <Label/> 
-    <Join/>
-    <Contact/> 
-     <Marquee/>
-    <Soon/> */}
-     </main>
-        </div>
+    <main>
+      <section id="home">
+        <Pulse />
+      </section>
+      
+      <section id="quote">
+        <Qoute />
+      </section>
+
+      <section id="product-info">
+        <ProductInfo />
+      </section>
+
+      <section id="label">
+        <Label />
+      </section>
+
+      <section id="join">
+        <Join />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
+      <section id="marquee">
+        <Marquee />
+      </section>
+
+      <section id="soon">
+        <Soon />
+      </section>
+    </main>
+  </div>
   );
 }
 
