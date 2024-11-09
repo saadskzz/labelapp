@@ -14,12 +14,22 @@ function Header() {
 <h1>Label</h1>
 
 </div>
-
+<div className='header-nav1'>
+  <div className='nav-img'>
+    <img src={prefix}/>
+<p>HOME</p></div>
+<div>
+<p>ABOUT US</p></div>
+<div>
+<p>JOIN US</p></div>
+<p>CONTACT US</p>
+</div>
    </header>
    <div className='sticky-comp'>
     <div className='menu'> <a href='#head'> <MenuOutlined  onClick={()=> setMenuLoad(!menuLoad)}/></a></div>
     
     </div>
+
     {menuLoad &&<div className='header-nav' id='head' >
       <div className='nav-img'>
         <img src={prefix}/>

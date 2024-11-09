@@ -16,17 +16,33 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+
   line-height: 0.8;
   padding-left: 240px;
   padding-right: 240px;
- 
- 
- 
+
+
+
   }
-  .sticky-comp{
+  .header-nav1{
     display: flex;
-    justify-content: center;
+   flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  .header-nav1 p{
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 22px;
+    padding-left: 10px;
+    font-family: 'Gilroy-Black',sans-serif;
+    
+  }
+
+  .sticky-comp{
+    display: none;
+    /* display: flex; */
+    /* justify-content: center; */
   }
   .sticky-comp a{
     text-decoration: none;
@@ -40,12 +56,12 @@
   .header-name {
     display: flex;
     justify-content: center;
-    
+
     font-family: 'Shockwave', Courier New, monospace;
 
    color: #fff;
    font-size: 29px;
-  
+
    font-weight: 120;
   }
   .header-name h1 {
@@ -55,32 +71,25 @@
 
    color: #fff;
    font-size: 29px;
-  
+
    font-weight: 120;
   }
-  .header-nav{
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   
-    padding: 80px;
-  }
+
   .nav-img{
     display: flex;
     align-items: center;
-    
+
   }
   .header-nav p{
-    
+
     font-weight: 400px;
     font-size: 100px;
     line-height: 0px;
     padding-left: 10px;
     margin-top: 40;
-  
+
     font-family: 'Gilroy-Black',sans-serif;
-    
+
   }
   @media (max-width:1716px) {
     .header-nav p{
@@ -88,7 +97,7 @@
       font-size: 80px;
       line-height: 22px;
       padding-left: 10px;
-      
+
     }
   }
   @media (max-width:1532px) {
@@ -97,7 +106,7 @@
       font-size: 70px;
       line-height: 22px;
       padding-left: 10px;
-      
+
     }
   }
   @media (max-width:1432px) {
@@ -106,7 +115,7 @@
       font-size: 60px;
       line-height: 22px;
       padding-left: 10px;
-      
+
     }
   }
   @media (max-width:1280px) {
@@ -115,7 +124,7 @@
       font-size: 45px;
       line-height: 22px;
       padding-left: 10px;
-      
+
     }
   }
   @media (max-width:1152px) {
@@ -124,34 +133,65 @@
       font-size: 32px;
       line-height: 22px;
       padding-left: 10px;
-      
+
     }
   }
   @media(max-width:1028px){
-    
+    .header-nav1 p{
+      font-weight: 400px;
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 10px;
+      
+    }
+
   }
   @media(max-width: 912px){
-    
-    .header-nav p{
+    .header-nav1 p{
       font-weight: 200px;
-      font-size: 20px;
+      font-size: 6px;
       line-height: 5px;
-    text-wrap: nowrap;
+    
       
       text-align: center;
       
     }
-  }
-  @media(max-width: 658px){
+
    
+  }
+/* Ensures .sticky-comp is shown and sticky for screen widths below 800px */
+@media (max-width: 800px) {
+  .sticky-comp {
+      display: flex;  /* Make sticky component visible */
+      justify-content: center; /* Center the content */
+      z-index: 200;
+      position: sticky;  /* Make it sticky */
+      background-color: rgb(12, 12, 12);
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  .header-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+  }
+  .header-nav1 {
+      display: none;  /* Hides header-nav1 in smaller screens */
+  }
+}
+  @media(max-width: 658px){
+
     .header-nav p{
       font-weight: 200px;
       font-size: 18px;
       line-height: 5px;
-    
+
       padding-left: 10px;
       text-align: center;
-      
+
     }
   }
   @media (max-width:750px){
@@ -168,9 +208,9 @@
   }
   @media (max-width: 600px) {
     .app-header{
-   
+
     }
-  
+
     .sticky-comp{
       z-index: 200;
       position: sticky;
@@ -178,13 +218,13 @@
       top: 0;
       left: 0;
       right: 0;
-     
+
     }
-   
+
     .header-nav p {
-    
-      
-     
+
+
+
     }
   }
   @media (max-width: 550px) {
@@ -193,9 +233,9 @@
       padding-right: 110px;
     }
     .header-nav p {
-    
+
       font-size: 16px;
-     
+
     }
   }
   @media (max-width:450px) {
@@ -210,8 +250,8 @@
       padding-right: 40px;
     }
     .header-nav p {
-    
-      
+
+
      font-size: 14px;
     }
   }
